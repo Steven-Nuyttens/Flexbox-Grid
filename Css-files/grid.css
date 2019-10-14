@@ -1,7 +1,27 @@
-.container {
-    grid-template-columns: 16%[line1] 16%[line2] 16%[line3] 16%[line4] 16%[line5] 16%[line6];
-    grid-template-rows: 20px auto 50px 50px;
+#P1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
 }
 
+#P2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25%;
+    justify-content: space-between;
+}
 
-/* try */
+.street {
+    text-align: center;
+}
+
+.imgstr {
+    justify-content: center;
+}
+
+#P3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    justify-content: space-around;
+}
