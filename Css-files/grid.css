@@ -1,17 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
 #P1 {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.801);
     color: white;
-    padding: 1em;
-    margin: 2em;
+    line-height: 80px;
 }
 
 #P2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 25%;
-    grid-gap: 80px 80px;
     margin: 2em;
+    line-height: 18px;
 }
 
 .street {
@@ -43,6 +48,7 @@ p {
     grid-template-columns: 16% 16% 16% 16% 16% 20%;
     grid-template-rows: 25%;
     grid-gap: 10px;
+    line-height: 18px;
 }
 
 img {
