@@ -25,20 +25,16 @@
 
 h2 {
     text-align: center;
-    margin-bottom: 0px;
 }
 
 .dark-text {
     align-self: center;
-    font-size: 8px;
-    margin-top: 0px;
+    font-size: 10px;
     color: black;
 }
 
 p {
     align-self: center;
-    font-size: 8px;
-    margin-top: 0px;
     color: grey;
     text-align: center;
 }

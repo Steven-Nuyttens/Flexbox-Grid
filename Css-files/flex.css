@@ -4,34 +4,48 @@
     font-family: sans-serif;
 }
 
-h1 {
+.header {
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.801);
     color: white;
-    line-height: 100px;
+    line-height: 80px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.child {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    color: grey;
 }
 
 img {
-    width: 100%;
+    width: 90%;
+    border-style: none;
 }
 
-#flexbox1 {
-    display: flex;
+#large-img {
+    width: 300px;
+    height: 300px;
+    align-self: flex-end;
+}
+
+#street-art1 {
+    max-width: 25%;
+    font-size: 0.8rem;
     justify-content: center;
-    line-height: 20px;
-}
-
-h2 {
+    padding: 5px;
+    margin: 10px;
     text-align: center;
-}
-
-.street-text {
-    flex-shrink: 3;
-}
-
-#flexbox2 {
-    display: flex;
     align-content: center;
 }
-
-.flexitem {}
