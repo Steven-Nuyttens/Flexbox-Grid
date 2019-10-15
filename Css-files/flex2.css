@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.P1 {
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.P2 {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.P3 {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+    text-align: center;
+}
+
+#street-text {
+    justify-content: end;
+    width: 25%;
+}
+
+#big-img {
+    width: 25%;
+}
+
+.child {
+    width: 200px;
+}
